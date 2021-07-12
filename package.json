@@ -1,0 +1,29 @@
+{
+  "name": "dirwatcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anbarasu129/DirWatcher.git"
+  },
+  "author": "Anbarasu P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anbarasu129/DirWatcher/issues"
+  },
+  "homepage": "https://github.com/anbarasu129/DirWatcher#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "mongoose": "^5.13.2",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.9"
+  }
+}
