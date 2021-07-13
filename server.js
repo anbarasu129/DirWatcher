@@ -14,7 +14,7 @@ require("dotenv").config();
 const { fileEventModel: FileEventModel } = require("./models");
 const { ConfigLogics, DirWatcherLogics } = require("./logics");
 
-mongoose.connect("mongodb+srv://ameen:ameen@ceg-srp.kebh5.mongodb.net/test", {
+mongoose.connect("mongodb+srv://anbu:anbu@cluster0.rt8nq.mongodb.net/test", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useCreateIndex: true,
